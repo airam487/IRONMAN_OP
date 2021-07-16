@@ -1,1 +1,1 @@
-worker: python3 -m Music2
+worker: python3 -m Musical
