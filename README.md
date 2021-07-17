@@ -8,7 +8,7 @@ oR
 
 Use Our 2nd repository 
 ```
-</p><p align="left"><a href="https://github.com/Psychobots/VCMUSICAL"> <img src="https://img.shields.io/badge/Github-Repo-black?style=for-the-badge&logo=github" alt="GROUP" /></a> 
+</p><p align="left"><a href="https://github.com/Psychobots/VCMUSICAL"> <img src="https://img.shields.io/badge/Github-2nd_Repo-black?style=for-the-badge&logo=github" alt="GROUP" /></a> 
   
   
 </p><p align="left"><a href="https://t.me/Lovishmanager_bot"> <img src="https://img.shields.io/badge/Lovish-manager-pink?style=for-the-badge&logo=telegram" alt="CHANNEL" /></a> 
