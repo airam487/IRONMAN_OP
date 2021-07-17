@@ -473,10 +473,10 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "I joined this group for playing music in VC"
+                        message.chat.id, "@Lovishmusic_bot Assistant is Here ✨"
                     )
                     await lel.edit(
-                        "<b>helper userbot joined your chat</b>",
+                        "<b> @Lovishmusic_bot Is Here</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -540,7 +540,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/60805193ffd4178482d9a.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
