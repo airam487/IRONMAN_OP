@@ -886,7 +886,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ <b>Playing</b> here the song requested by {} via **@Lovishmusic_bot**".format(
+            caption="▶️ <b>Playing</b> here the song requested by {} via **Lovishmusic_bot 🎼**".format(
                 message.from_user.mention()
             ),
         )
@@ -941,7 +941,7 @@ async def deezer(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@JokerMuisc** to your Group and try again</b>",
+                        "\n\nOr manually add **@LovishMuisc_bot** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -1079,7 +1079,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@JokerMuisc** to your Group and try again</b>",
+                        "\n\nOr manually add **@LovishMuisc_bot** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -1119,7 +1119,7 @@ async def jiosaavn(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
+                InlineKeyboardButton("♪Playlist", callback_data="playlist"),
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
@@ -1277,7 +1277,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via **@Lovishmusic_bot**",
+            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via **Lovishmusic_bot**",
         )
         
         os.remove("final.png")
