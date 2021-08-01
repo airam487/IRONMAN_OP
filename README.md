@@ -1,4 +1,4 @@
-# Musical-Vc ![✨](https://telegra.ph/file/d37e87d4e139863724cb6.jpg)
+# Musical-Vc [![✨](https://telegra.ph/file/d37e87d4e139863724cb6.jpg)](https://t.me/Lovishmanager_bot)
 # THIS REPOSITORY is For our Perosnal BOT✨ [LOVISH](https://t.me/Lovishmanager_bot) 
 ## IF YOU WANT FOR YOUR ALSO 
 ```
