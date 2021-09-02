@@ -5,10 +5,11 @@ name: Vc Workflow
 on:
     push:
     workflow_dispatch:
+    timeout-minutes: 9999
     
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: windows-latest
 
     steps:
        - name: Checkout
