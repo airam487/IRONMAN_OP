@@ -1,16 +1,15 @@
 #Docker Work na BSDK
 
-name: Vc Workflow
+name: Windows-RDP
 
-on:
-    push:
-    workflow_dispatch:
-    timeout-minutes: 9999
-    
+on: workflow_dispatch
+
 jobs:
   build:
-    runs-on: windows-latest
 
+    runs-on: windows-latest
+    timeout-minutes: 9999
+    
     steps:
        - name: Checkout
          uses: actions/checkout@main
