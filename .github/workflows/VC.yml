@@ -7,7 +7,7 @@ on: workflow_dispatch
 jobs:
   build:
 
-    runs-on: ubuntu-20.04
+    runs-on: windows-latest
     timeout-minutes: 9999
     
     steps:
@@ -29,12 +29,14 @@ jobs:
        - name: cloning repo
          continue-on-error: true
          run: |
-           git clone https://github.com/PsychoBots/Musical-Lovish_VC
+           git clone https://github.com/PsychoBots/Musical-Lovish_VC.git
+           cd Musical-Lovish_VC
+           pip install -U -r requirements.txt
        - name: Running VC
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           sudo sh action.sh
+           python3 -m Musical
        - name: Loop workflow
          continue-on-error: true
          run: |
