@@ -473,10 +473,10 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "@Lovishmusic_bot Assistant is Here ✨"
+                        message.chat.id, "@ironma_assistant Assistant is Here ✨"
                     )
                     await lel.edit(
-                        "<b> @Lovishmusic_bot Is Here</b>",
+                        "<b> IRONMAN Is Here</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -485,14 +485,14 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@Lovishmusic_bot** to your Group and try again</b>",
+                        "\n\nOr manually add **@ironma_assistant** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} @Lovishmusic_bot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
+            f"<i> {user.first_name}@ironman_assistant not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
         )
         return
     text_links=None
@@ -728,7 +728,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ <b>Playing</b> here the song requested by {} via **@Lovishmusic_bot**".format(
+            caption="▶️ <b>Playing</b> here the song requested by {} via **ironman**".format(
                 message.from_user.mention()
             ),
         )
@@ -785,7 +785,7 @@ async def ytplay(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@JokerMuisc** to your Group and try again</b>",
+                        "\n\nOr manually add **@ironman_assistant** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -886,7 +886,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ <b>Playing</b> here the song requested by {} via **Lovishmusic_bot 🎼**".format(
+            caption="▶️ <b>Playing</b> here the song requested by {} via **IRONMAN 🎼**".format(
                 message.from_user.mention()
             ),
         )
@@ -941,7 +941,7 @@ async def deezer(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@LovishMuisc_bot** to your Group and try again</b>",
+                        "\n\nOr manually add **@IRONAN_ASSISTANT** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -967,7 +967,7 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumbnail = " https://telegra.ph/file/895bfecd37c2676860eff.jpg"
 
     except:
         await res.edit("Found Literally Nothing, You Should Work On Your English!")
@@ -1079,7 +1079,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add **@LovishMuisc_bot** to your Group and try again</b>",
+                        "\n\nOr manually add **@IRONMAN_ASSISTANT** to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -1277,7 +1277,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via **Lovishmusic_bot**",
+            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via **IRONMAN**",
         )
         
         os.remove("final.png")
