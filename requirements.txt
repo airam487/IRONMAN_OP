@@ -3,7 +3,7 @@ TgCrypto
 pytgcalls
 python-dotenv
 youtube_dl
-youtube_search_python
+
 requests
 aiohttp
 aiofiles
@@ -17,3 +17,6 @@ future
 psutil
 wget
 tswift
+yt_dlp
+youtube_search
+youtube_search_python==1.4.6
