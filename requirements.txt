@@ -4,7 +4,7 @@ pytgcalls
 python-dotenv
 
 
-reques
+requests
 Py-tgcalls==0.5.5ts
 aiohttp
 aiofiles
