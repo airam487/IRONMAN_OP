@@ -2,9 +2,10 @@ Pyrogram
 TgCrypto
 pytgcalls
 python-dotenv
-youtube_dl
 
-requests
+
+reques
+Py-tgcalls==0.5.5ts
 aiohttp
 aiofiles
 asyncio
