@@ -5,7 +5,7 @@ python-dotenv
 
 
 requests
-Py-tgcalls==0.5.5ts
+
 aiohttp
 aiofiles
 asyncio
@@ -21,3 +21,4 @@ tswift
 yt_dlp
 youtube_search
 youtube_search_python==1.4.6
+py-tgcalls==0.5.5
