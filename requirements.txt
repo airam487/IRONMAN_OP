@@ -5,7 +5,9 @@ python-dotenv
 
 
 requests
-
+httpx==0.13.3
+dnspython
+python-dotenv
 aiohttp
 aiofiles
 asyncio
